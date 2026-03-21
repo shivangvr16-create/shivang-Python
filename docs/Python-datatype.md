@@ -23,6 +23,38 @@ print("a , b , c , d")
 ```
 13 16 20 20.9
 ```
+## Float
+### Definition
+#### A float is a floating-point number, meaning it can store fractional values (numbers with decimals) as well as very large or very small numbers using scientific notation
+### For example :-
+## Run this code in python for showing examples
+```
+x = 10       
+y = float(x) 
+print(y)     
+
+z = float("3.5")
+print(z)     
+```
+### Output will be :-
+```
+10.0
+3.5
+```
+## Complex Number
+### Definition 
+#### A complex number is a number made up of two components: a real number and an imaginary number, expressed together as 𝑎 + 𝑏𝑖
+### For example :-
+## Run this code in python for showing examples 
+```
+z = 2 + 3j   # complex number
+print(z)
+```
+### Output will be :-
+```
+(2+3j)
+```
+## 
 
 
 
