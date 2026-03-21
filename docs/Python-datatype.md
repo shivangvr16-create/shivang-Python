@@ -55,6 +55,57 @@ print(z)
 (2+3j)
 ```
 ## Boolaen
+### Defenition
+#### A Boolean is a data type that can only be True or False, used to represent logical conditions
+### For Example :-
+## Run this code in python for showing examples
+```
+x = 5
+y = 10
+
+print(x < y)
+print(x == y)
+```
+### Output will be :-
+```
+True
+False
+```
+## Dictionary
+### Definiton
+#### A dictionary is an unordered, mutable collection where each item is stored as a pair:
+
+#### Key → a unique identifier (must be immutable, like strings, numbers, or tuples).
+
+#### Value → the data associated with that key (can be any type).
+
+### 🔑 Key Points
+#### Defined using curly braces {}.
+
+#### Keys must be unique; values can be duplicated.
+
+#### Dictionaries are optimized for fast lookups by key.
+### For example :-
+## run this code in python for showing the examples
+```
+student = {
+    "name": "Amit",
+    "age": 21,
+    "course": "Computer Science"
+}
+
+print(student["name"])   
+print(student["age"])
+```
+### Output will be
+```
+Amit
+21
+```
+
+
+
+
 
 
 
