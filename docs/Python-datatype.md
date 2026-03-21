@@ -102,6 +102,27 @@ print(student["age"])
 Amit
 21
 ```
+## Set
+### Definition
+#### A set is a mutable collection that stores multiple items, but does not allow duplicates. It is commonly used when you need to keep track of distinct values
+### For example :-
+## Run this code in python to showing examples
+```
+fruits = {"apple", "banana", "orange", "apple"}  
+
+print(fruits)  
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a.union(b))        
+print(a.intersection(b))
+```
+### Output will be
+```
+{'apple', 'banana', 'orange'}
+{1, 2, 3, 4, 5}
+{3}
+```
 
 
 
