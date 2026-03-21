@@ -1,23 +1,28 @@
-# Python Data Type
-<img width="603" height="409" alt="image" src="https://github.com/user-attachments/assets/8fcd6de1-59bb-4b63-9dad-d848442dd6ef" />
+# Python data types
+<img width="928" height="423" alt="image" src="https://github.com/user-attachments/assets/ad80e0df-f369-4b36-ad07-face8e651188" />
 
-## Numeric Data types
-<img width="602" height="253" alt="image" src="https://github.com/user-attachments/assets/09939226-08a6-451b-897b-fbadae017f4f" />
+## Let's start --
+## Numeric
 
 * Integer
-* Complex number
 * Float
+* Complex Numbers
+## Integers 
+### Definition
+#### Integers are ofen called number or a decimal
+### For example :-
+## Run this code in python to show examples
+```
+a = 13
+b = 16
+c = 20
+d = 20.9
+print("a , b , c , d")
+```
+### Output will be :-
+```
+13 16 20 20.9
+```
 
-### Integer Examples
-#### Please run this python program to see examples
-```
-cat 01-integer.py 
-a = 10
-b = 20
-c = 0
-print(a, b, c)
-```
-#### output will be 
-```
 
 
