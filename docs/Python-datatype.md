@@ -188,6 +188,97 @@ Amit
  21
 (1, 2, 3)
 ```
+## Range
+### Definition
+#### A range is an immutable sequence of integers defined by a start, stop, and step value. It generates numbers on demand rather than storing them all at once, making it memory-efficient.
+
+#### 🔑 Key Points
+#### Created using the range() function.
+### For example :-
+## Run this code in python for showing examples
+```
+# Basic usage
+for i in range(5):
+    print(i)
+
+# With start and stop
+for i in range(2, 7):
+    print(i)
+
+# With step
+for i in range(1, 10, 2):
+    print(i)
+```
+### Output will be :-
+```
+0 1 2 3 4
+2 3 4 5 6
+1 3 5 7 9
+```
+## List
+### Definition
+#### A list is a sequence of items that can store multiple values, including different data types, in a single variable. Unlike tuples, lists are mutable, meaning you can change, add, or remove elements after creation.
+
+#### 🔑 Key Points
+#### Defined using square brackets [ ].
+ 
+#### Elements can be of mixed types (integers, strings, floats, even other lists).
+
+#### Ordered → elements maintain their position and can be accessed by index.
+
+#### Mutable → you can modify the list after creation.
+### For example :-
+## Run this code in python for showing examples
+```
+# Creating a list
+fruits = ["apple", "banana", "orange"]
+
+print(fruits[0])   
+print(fruits[1])   
+
+# Modifying the list
+fruits.append("grape")   # Add element
+fruits.remove("banana")  # Remove element
+print(fruits)            
+```
+### Output will be :-
+```
+apple
+banana
+['apple', 'orange', 'grape']
+```
+## None
+### Defenition
+#### None is a data type of its own (NoneType) and is used to indicate that something is empty, not set, or has no meaningful value.
+
+#### 🔑 Key Points
+#### None is not the same as 0, False, or an empty string/list.
+
+#### It is often used as a default return value for functions that don’t explicitly return anything.
+
+#### You can check for None using the is operator.
+### For example :-
+## Run this code in python for showing examples
+```
+# Example 1: Function without return
+def greet():
+    print("Hello")
+
+result = greet()
+print(result)  
+
+# Example 2: Checking None
+x = None
+if x is None:
+    print("x has no value")  
+```
+### Output will be :-
+```
+None
+x has no value
+```
+# We have finished data types !!!!!!!!!! 
+# Hurrah !!!
 
 
 
