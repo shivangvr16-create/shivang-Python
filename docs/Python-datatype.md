@@ -123,6 +123,73 @@ print(a.intersection(b))
 {1, 2, 3, 4, 5}
 {3}
 ```
+## Sequence Type
+* String
+* Tuple
+* Range
+* List
+## String
+### Definition
+
+#### A string is an immutable ordered collection of characters used to store and manipulate text. It can include letters, numbers, symbols, and even spaces.
+
+#### 🔑 Key Points
+#### Strings are written inside single quotes ' ', double quotes " ", or triple quotes ''' ''' / """ """ (for multi-line text).
+
+#### Strings are immutable, meaning once created, they cannot be changed directly.
+
+#### Each character in a string has an index (position), starting from 0
+### For example :-
+## Run this code in python for showing examples
+```
+# Creating strings
+name = "Alice"
+greeting = 'Hello'
+multiline = """This is
+a multi-line string."""
+
+# Accessing characters
+print(name[0])  
+print(name[1:4]) 
+```
+### Output will be :-
+```
+A
+lic
+```
+## Tuple
+### Definition
+#### A tuple is a sequence of items, similar to a list, but cannot be changed after creation (immutable). It is used to group related data together.
+
+#### 🔑 Key Points
+#### Defined using parentheses ( ) or simply commas.
+
+#### Elements can be of different data types (integers, strings, floats, etc.).
+
+#### Tuples are ordered, meaning elements have a fixed position and can be accessed by index.
+
+#### Immutable → once created, you cannot add, remove, or modify elements
+### For example :-
+## Run this code in python for showing examples
+```
+# Creating a tuple
+student = ("Amit", 21, "Computer Science")
+
+print(student[0])   
+print(student[1])  
+
+# Tuple without parentheses
+numbers = 1, 2, 3
+print(numbers)      
+```
+### Output will be :-
+```
+Amit
+ 21
+(1, 2, 3)
+```
+
+
 
 
 
