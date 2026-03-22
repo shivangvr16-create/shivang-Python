@@ -129,6 +129,8 @@ print(a.union(b))
 print(a.intersection(b))
 ```
 ### Output will be
+<img width="680" height="277" alt="image" src="https://github.com/user-attachments/assets/56555d85-4ee3-4418-87e5-0d9cfe49dd76" />
+
 ```
 {'apple', 'banana', 'orange'}
 {1, 2, 3, 4, 5}
@@ -164,6 +166,8 @@ print(name[0])
 print(name[1:4]) 
 ```
 ### Output will be :-
+<img width="718" height="324" alt="image" src="https://github.com/user-attachments/assets/cd27a8ba-16c2-4508-bb20-9d467225ba3b" />
+
 ```
 A
 lic
@@ -194,6 +198,8 @@ numbers = 1, 2, 3
 print(numbers)      
 ```
 ### Output will be :-
+<img width="691" height="368" alt="image" src="https://github.com/user-attachments/assets/eebab97c-3cad-42e5-bb27-3d6f1472014c" />
+
 ```
 Amit
  21
@@ -221,10 +227,24 @@ for i in range(1, 10, 2):
     print(i)
 ```
 ### Output will be :-
+<img width="659" height="516" alt="image" src="https://github.com/user-attachments/assets/8878d3ed-1b10-40a2-be71-24610fd7dc76" />
+
 ```
-0 1 2 3 4
-2 3 4 5 6
-1 3 5 7 9
+0
+1
+2
+3
+4
+2
+3
+4
+5
+6
+1
+3
+5
+7
+9
 ```
 ## IV - List
 ### Definition
@@ -253,6 +273,8 @@ fruits.remove("banana")  # Remove element
 print(fruits)            
 ```
 ### Output will be :-
+<img width="662" height="365" alt="image" src="https://github.com/user-attachments/assets/706ddf7f-dd3a-4214-a80f-e417f8414c7e" />
+
 ```
 apple
 banana
