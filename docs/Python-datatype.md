@@ -56,6 +56,8 @@ z = 2 + 3j   # complex number
 print(z)
 ```
 ### Output will be :-
+<img width="628" height="247" alt="image" src="https://github.com/user-attachments/assets/060117f1-7650-4ae5-bb40-66ebd8c31858" />
+
 ```
 (2+3j)
 ```
@@ -72,6 +74,8 @@ print(x < y)
 print(x == y)
 ```
 ### Output will be :-
+<img width="624" height="265" alt="image" src="https://github.com/user-attachments/assets/894e0262-ec15-443c-b393-e4f537fde8f7" />
+
 ```
 True
 False
@@ -103,6 +107,8 @@ print(student["name"])
 print(student["age"])
 ```
 ### Output will be
+<img width="653" height="265" alt="image" src="https://github.com/user-attachments/assets/d7b28c35-1fb5-4d1e-8975-cc3e057e2a36" />
+
 ```
 Amit
 21
