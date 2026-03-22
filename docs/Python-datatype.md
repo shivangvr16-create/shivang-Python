@@ -2,32 +2,35 @@
 <img width="928" height="423" alt="image" src="https://github.com/user-attachments/assets/ad80e0df-f369-4b36-ad07-face8e651188" />
 
 ## Let's start --
-## Numeric
+### 1 - Numeric
 
-* Integer
-* Float
-* Complex Numbers
-## Integers 
+#### I - Integer
+#### II - Float
+#### III - Complex Numbers
+## I - Integers 
 ### Definition
 #### Integers are ofen called number or a decimal
 ### For example :-
-## Run this code in python to show examples
+## You can run this code in python for seeing examples
 ```
 a = 13
 b = 16
 c = 20
 d = 20.9
-print("a , b , c , d")
+print(a , b , c , d)
 ```
+
 ### Output will be :-
+<img width="651" height="240" alt="image" src="https://github.com/user-attachments/assets/826e5588-7cf5-439d-b919-46ae74989db1" />
+
 ```
 13 16 20 20.9
 ```
-## Float
+## II - Float
 ### Definition
 #### A float is a floating-point number, meaning it can store fractional values (numbers with decimals) as well as very large or very small numbers using scientific notation
 ### For example :-
-## Run this code in python for showing examples
+## You can this code in python for seeing examples
 ```
 x = 10       
 y = float(x) 
@@ -37,15 +40,17 @@ z = float("3.5")
 print(z)     
 ```
 ### Output will be :-
+<img width="679" height="251" alt="image" src="https://github.com/user-attachments/assets/1c60acde-b55f-424b-ad63-4eed9edbfeab" />
+
 ```
 10.0
 3.5
 ```
-## Complex Number
+## III - Complex Number
 ### Definition 
 #### A complex number is a number made up of two components: a real number and an imaginary number, expressed together as 𝑎 + 𝑏𝑖
 ### For example :-
-## Run this code in python for showing examples 
+## You can run this code in python for seeing examples 
 ```
 z = 2 + 3j   # complex number
 print(z)
@@ -54,11 +59,11 @@ print(z)
 ```
 (2+3j)
 ```
-## Boolaen
+## 2 - Boolaen
 ### Defenition
 #### A Boolean is a data type that can only be True or False, used to represent logical conditions
 ### For Example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 x = 5
 y = 10
@@ -71,7 +76,7 @@ print(x == y)
 True
 False
 ```
-## Dictionary
+## 3 - Dictionary
 ### Definiton
 #### A dictionary is an unordered, mutable collection where each item is stored as a pair:
 
@@ -86,7 +91,7 @@ False
 
 #### Dictionaries are optimized for fast lookups by key.
 ### For example :-
-## run this code in python for showing the examples
+## You can run this code in python for seeing the examples
 ```
 student = {
     "name": "Amit",
@@ -102,11 +107,11 @@ print(student["age"])
 Amit
 21
 ```
-## Set
+## 4 - Set
 ### Definition
 #### A set is a mutable collection that stores multiple items, but does not allow duplicates. It is commonly used when you need to keep track of distinct values
 ### For example :-
-## Run this code in python to showing examples
+## You can run this code in python to seeing examples
 ```
 fruits = {"apple", "banana", "orange", "apple"}  
 
@@ -123,12 +128,12 @@ print(a.intersection(b))
 {1, 2, 3, 4, 5}
 {3}
 ```
-## Sequence Type
-* String
-* Tuple
-* Range
-* List
-## String
+## 5 - Sequence Type
+#### I -  String
+#### II -  Tuple
+#### III -  Range
+#### IV -  List
+## I - String
 ### Definition
 
 #### A string is an immutable ordered collection of characters used to store and manipulate text. It can include letters, numbers, symbols, and even spaces.
@@ -140,7 +145,7 @@ print(a.intersection(b))
 
 #### Each character in a string has an index (position), starting from 0
 ### For example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 # Creating strings
 name = "Alice"
@@ -157,7 +162,7 @@ print(name[1:4])
 A
 lic
 ```
-## Tuple
+## II - Tuple
 ### Definition
 #### A tuple is a sequence of items, similar to a list, but cannot be changed after creation (immutable). It is used to group related data together.
 
@@ -170,7 +175,7 @@ lic
 
 #### Immutable → once created, you cannot add, remove, or modify elements
 ### For example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 # Creating a tuple
 student = ("Amit", 21, "Computer Science")
@@ -188,14 +193,14 @@ Amit
  21
 (1, 2, 3)
 ```
-## Range
+## III - Range
 ### Definition
 #### A range is an immutable sequence of integers defined by a start, stop, and step value. It generates numbers on demand rather than storing them all at once, making it memory-efficient.
 
 #### 🔑 Key Points
 #### Created using the range() function.
 ### For example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 # Basic usage
 for i in range(5):
@@ -215,7 +220,7 @@ for i in range(1, 10, 2):
 2 3 4 5 6
 1 3 5 7 9
 ```
-## List
+## IV - List
 ### Definition
 #### A list is a sequence of items that can store multiple values, including different data types, in a single variable. Unlike tuples, lists are mutable, meaning you can change, add, or remove elements after creation.
 
@@ -228,7 +233,7 @@ for i in range(1, 10, 2):
 
 #### Mutable → you can modify the list after creation.
 ### For example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 # Creating a list
 fruits = ["apple", "banana", "orange"]
@@ -247,7 +252,7 @@ apple
 banana
 ['apple', 'orange', 'grape']
 ```
-## None
+## 5 - None
 ### Defenition
 #### None is a data type of its own (NoneType) and is used to indicate that something is empty, not set, or has no meaningful value.
 
@@ -258,7 +263,7 @@ banana
 
 #### You can check for None using the is operator.
 ### For example :-
-## Run this code in python for showing examples
+## You can run this code in python for seeing examples
 ```
 # Example 1: Function without return
 def greet():
