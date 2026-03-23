@@ -1,4 +1,2 @@
 
-
-/opt/homebrew/bin/python3
-print("Hello world")
+# what this program mean
