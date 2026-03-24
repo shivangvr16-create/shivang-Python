@@ -6,4 +6,14 @@
 print("Hello world")
 ```
 ## Important points to remember :-
-* You should keep () this after 
+* You should keep () this after print
+* You should put "" in () this
+### Some examples of print statment :-
+```
+ print("Hello World")
+```
+### Output will be :-
+```
+Hello World
+```
+
