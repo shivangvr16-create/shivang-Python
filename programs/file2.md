@@ -1,5 +1,5 @@
 # What this program mean ? : 
-## It means how to print Hello world in python
+## It means how to print a word or a sentencein python
 ## It is a basic thing we have to learn
 # like :- 
 ```
@@ -16,4 +16,5 @@ print("Hello world")
 ```
 Hello World
 ```
+# Thanks for watching this  
 
