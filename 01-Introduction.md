@@ -251,6 +251,7 @@ print("Welcome", name)
 
 
 
+<img width="763" height="414" alt="image" src="https://github.com/user-attachments/assets/a95f13b5-18c6-48a7-9145-b7e061d683ef" />
 
 
 
