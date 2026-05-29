@@ -253,6 +253,49 @@ print("Welcome", name)
 
 <img width="763" height="414" alt="image" src="https://github.com/user-attachments/assets/a95f13b5-18c6-48a7-9145-b7e061d683ef" />
 
+# Some examples of python projects are :-
+<img width="723" height="403" alt="image" src="https://github.com/user-attachments/assets/4d892e33-583b-46f0-b568-257b65d8c8ac" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## This is Jarvis 
+
+<img width="627" height="394" alt="image" src="https://github.com/user-attachments/assets/96c419ba-c92a-41fb-8be0-9b6939ee43f6" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ ## Flappy bird game
+ <img width="165" height="361" alt="image" src="https://github.com/user-attachments/assets/5f1da62e-80c1-4ab4-b254-60f3c0d93308" />
 
 
 
@@ -273,6 +316,14 @@ print("Welcome", name)
 
 
 
+
+## This is subway surfers
+#
+
+# So these are some prjects that we can make
+## I will teach you how to make this in Advanced 
+## we will learn basic to advanced 
+# Thank you see you in next lesson 
 
 
 
