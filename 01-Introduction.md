@@ -1,22 +1,5 @@
 <img width="351" height="342" alt="image" src="https://github.com/user-attachments/assets/4d3feb7a-ce7f-4b5a-a484-7e1c36e48f5c" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Python Programming Language
 ## Complete Introduction & History of Python
 #
