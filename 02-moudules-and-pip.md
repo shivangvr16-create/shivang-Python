@@ -245,8 +245,8 @@ print(response.status_code)
 #
 
 ## Common pip Errors
-##pip Not Found
-##Fix
+## pip Not Found
+## Fix
 ```
 python -m pip install --upgrade pip
 ```
@@ -259,6 +259,27 @@ pip install package-name --user
 ```
 #
 
+## Quick Summary
+- Module = A Python file containing reusable code.
+- Built-in Module = Comes with Python (math, os, random).
+- User-Defined Module = Created by the programmer.
+- Third-Party Module = Installed using pip (numpy, pandas, requests).
+- pip = Python package manager used to install, update, and remove packages.
+## Most Common Commands
+```
+pip install package_name
+pip list
+pip freeze
+pip install -r requirements.txt
+pip uninstall package_name
+pip install --upgrade package_name
+```
+#
+
+### This is the foundation for managing libraries and dependencies in professional Python projects.
+## Thanks for seeing this
+## so these are some moudles 
+## see you in the next lesson
 
 
 
