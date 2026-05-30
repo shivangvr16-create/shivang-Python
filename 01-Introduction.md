@@ -54,8 +54,8 @@
 - Increase productivity
 - Work across multiple industries
 
-Its flexibility helped it grow from a simple scripting language into one of the most
-important technologies in modern computing.
+### Its flexibility helped it grow from a simple scripting language into one of the most
+### important technologies in modern computing.
 #
 
 # History of Python
@@ -188,6 +188,254 @@ important technologies in modern computing.
 - OpenCV	Computer vision
 - Flask	Web applications
 - Django	Full-stack web development
+# 
+
+## Python print() Function – GitHub Notes
+
+## Introduction
+
+### The print() function is one of the most commonly used functions in Python. It is used to display output on the screen.
+
+## Syntax
+```
+print(*objects, sep=' ', end='\n')
+```
+#
+
+## Parameters
+```
+Parameter	                           Description
+objects	                             Values to be displayed
+sep	                                 Separator between multiple values
+end                                  What to print at the end of output
+```
+#
+
+## Basic Print
+```
+print("Hello World")
+```
+#
+
+## Output
+```
+Hello World
+```
+#
+
+## Printing Multiple Values
+```
+print("Python", "Java", "C++")
+```
+#
+
+## Output
+```
+Python Java C++
+```
+#
+
+## Using Variables
+```
+name = "Shivang"
+age = 20
+
+print(name)
+print(age)
+```
+#
+
+## Output
+```
+Shivang
+20
+```
+#
+
+## Custom Separator (sep)
+```
+print("2026", "05", "30", sep="-")
+```
+#
+
+## Output
+```
+2026-05-30
+```
+#
+
+## Custom End (end)
+```
+print("Hello", end=" ")
+print("World")
+```
+#
+
+## Output
+```
+Hello World
+```
+#
+
+## Printing Different Data Types
+```
+print(100)
+print(99.99)
+print(True)
+print(["Python", "Java"])
+```
+#
+
+## Output
+```
+100
+99.99
+True
+['Python', 'Java']
+```
+
+## Formatted String (f-string)
+```
+name = "Shivang"
+language = "Python"
+
+print(f"My name is {name} and I love {language}.")
+```
+#
+
+## Output
+```
+My name is Shivang and I love Python.
+```
+#
+
+## Escape Characters
+```
+print("Hello\nWorld")
+```
+#
+
+## Output
+```
+Hello
+World
+```
+#
+
+```
+print("Python\tProgramming")
+```
+#
+
+## Output
+```
+Python    Programming
+```
+#
+
+## Printing Quotes
+```
+print("He said, 'Python is awesome!'")
+```
+#
+
+## Output
+```
+He said, 'Python is awesome!'
+```
+#
+
+## Printing Mathematical Results
+```
+a = 10
+b = 5
+print(a + b)
+print(a * b)
+```
+#
+
+## Output
+```
+15
+50
+```
+#
+
+## Print Without New Line
+```
+for i in range(5):
+    print(i, end=" ")
+```
+#
+
+### Output
+```
+0 1 2 3 4
+```
+#
+
+## Practical Examples
+## Greeting Program
+```
+name = input("Enter your name: ")
+print(f"Welcome, {name}!")
+```
+#
+
+## Simple Calculator Output
+```
+a = 10
+b = 20
+
+print("Addition =", a + b)
+```
+#
+
+## User Information
+```
+name = "Shivang"
+city = "Lucknow"
+
+print("Name:", name)
+print("City:", city)
+```
+#
+
+## Best Practices
+## ✅ Use meaningful messages.
+```
+print("Program started successfully.")
+```
+#
+
+## ✅ Use f-strings for formatting.
+```
+print(f"Age: {age}")
+```
+#
+
+## ✅ Avoid excessive debugging prints in production code.
+#
+
+## Quick Summary
+
+- print() displays output to the console.
+- Supports strings, numbers, variables, lists, and other objects.
+- sep controls the separator between values.
+- end controls what appears after the output.
+- f-strings provide clean and readable formatting.
+- Essential for debugging, logging, and user interaction.
+#
+
+```
+print("Hello World")
+print("Python", "Programming", sep="-")
+print("Done", end="!")
+print(f"Welcome {name}")
+```
+#
+
+## Key Point: print() is the primary way to display information and debug programs in Python.
 ## Simple Python Program
 ```
 name = input("Enter your name: ")
